@@ -1,0 +1,85 @@
+* {
+    font-family: monospace;
+    
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(rgb(0, 225, 255), rgb(0, 255, 76) );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#title {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name{
+    margin-left: 50px;
+}
+
+#project{
+    margin-right: 50px;
+}
+
+#instructions {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    box-shadow: 0px 0px 10px 10px rgb(80, 78, 78);
+    display: grid;
+}
+
+#slider-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.slider {
+    display: block;
+    width: 10%;
+    height: 25px;
+}
+
+
+#button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.button {
+    height: 60px;
+    width: 125px;
+}
+
+.button:hover {
+    transform: scale(1.15);
+}
+
