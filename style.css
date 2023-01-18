@@ -64,6 +64,9 @@ body {
     height: 25px;
 }
 
+.slider-info, .grid-size {
+    font-size: 15px;
+}
 
 #button-box {
     display: flex;

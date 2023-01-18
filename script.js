@@ -8,7 +8,7 @@ const colorfulDraw = document.querySelector('#colorful')
 
 let size = 16
 let color = 'black'
-let click = true;
+let click = false;
 
 // Our slider input which changes value of our size(grid size)
 input.addEventListener('input', function (e) {
@@ -36,7 +36,12 @@ function sizeGrid(size) {
 // Function that changes size of canvas, uses new input to change size of canvas
 function changeSize(size) {
     sizeGrid(size);
-}
+};
+
+// Waits for event of click to happen on slider, then we run the function
+input.addEventListener('click', function(e) {
+    changeSize(size);
+});
 
 // Function that changes color from either black or colorful
 function changeColor() {
